@@ -32,7 +32,6 @@ export const ListItems = (props: any): JSX.Element => {
         </ListItemIcon>
         <ListItemText primary="Timetable" />
       </ListItemButton>
-<<<<<<< HEAD
       </Link>
       <Link style={{textDecoration : "none", color : "black"}} to={"/exercises"}>
       <ListItemButton>
@@ -69,31 +68,6 @@ export const ListItems = (props: any): JSX.Element => {
         </ListItemIcon>
         <ListItemText primary="Programs" />
       </ListItemButton>
-=======
-      <Link to="/exercises">
-        <ListItemButton>
-          <ListItemIcon>
-            <img src={run} alt="" className="icon" />
-          </ListItemIcon>
-          <ListItemText primary="Exercises" />
-        </ListItemButton>
-      </Link>
-      <Link to="/dishes">
-        <ListItemButton>
-          <ListItemIcon>
-            <img src={bowl} alt="" className="icon" />
-          </ListItemIcon>
-          <ListItemText primary="Dishes" />
-        </ListItemButton>
-      </Link>
-      <Link to="/programs">
-        <ListItemButton>
-          <ListItemIcon>
-            <img src={weight} alt="" className="icon" />
-          </ListItemIcon>
-          <ListItemText primary="Programs" />
-        </ListItemButton>
->>>>>>> c3fe7dea4db082c607a4501beb4abefef2ef8fc3
       </Link>
     </React.Fragment>
   );
@@ -102,7 +76,6 @@ export const ListItems = (props: any): JSX.Element => {
 export const SecondaryListItems = (props: any): JSX.Element => {
   return (
     <React.Fragment>
-<<<<<<< HEAD
       <Link style={{textDecoration : "none", color : "black"}} to={"/achievements"}>
       <ListItemButton>
         <ListItemIcon>
@@ -135,31 +108,6 @@ export const SecondaryListItems = (props: any): JSX.Element => {
         </ListItemIcon>
         <ListItemText primary="Notificatons" />
       </ListItemButton>
-=======
-      <Link to="/achievements">
-        <ListItemButton>
-          <ListItemIcon>
-            <img src={stats} alt="" />
-          </ListItemIcon>
-          <ListItemText primary="Achievements" />
-        </ListItemButton>
-      </Link>
-      <Link to="/friends">
-        <ListItemButton>
-          <ListItemIcon>
-            <img src={friends} alt="" />
-          </ListItemIcon>
-          <ListItemText primary="Friends" />
-        </ListItemButton>
-      </Link>
-      <Link to="/notifications">
-        <ListItemButton>
-          <ListItemIcon>
-            <img src={bell} alt="" />
-          </ListItemIcon>
-          <ListItemText primary="Notificatons" />
-        </ListItemButton>
->>>>>>> c3fe7dea4db082c607a4501beb4abefef2ef8fc3
       </Link>
     </React.Fragment>
   );
@@ -175,12 +123,8 @@ export const BottomListItems = (props: any): JSX.Element => {
         </ListItemIcon>
         <ListItemText primary="Settings" />
       </ListItemButton>
-<<<<<<< HEAD
       </Link>
       <Link style={{textDecoration : "none", color : "red"}} to={"/"}>
-=======
-      <Link style={{ textDecoration: "none", color: "red" }} to={"/"}>
->>>>>>> c3fe7dea4db082c607a4501beb4abefef2ef8fc3
         <ListItemButton>
           <ListItemIcon>
             <img src={logout} alt="" className="icon" />

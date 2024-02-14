@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import * as React from "react";
 import { styled, createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -290,25 +289,3 @@ export default function Dish() {
   );
 }
 
-=======
-import { Link } from "react-router-dom";
-
-export function Dish() {
-  return (
-    <>
-      <p>Obrazek</p>
-      <p>Jmeno jidla</p>
-      <p>Popisek jidla</p>
-      <p>Tabulka - hodnoty</p>
-      <p>Upvote</p>
-      <p>Downvote</p>
-      <Link to={"/dishes"}>
-        <p>Go back to dishes</p>
-      </Link>
-      <Link to={"/"}>
-        <p>Go back to dashboard</p>
-      </Link>
-    </>
-  );
-}
->>>>>>> c3fe7dea4db082c607a4501beb4abefef2ef8fc3
